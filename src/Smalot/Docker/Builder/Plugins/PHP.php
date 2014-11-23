@@ -3,10 +3,10 @@
 namespace Smalot\Docker\Builder\Plugins;
 
 /**
- * Class MySQL
+ * Class PHP
  * @package Smalot\Docker\Builder\Plugins
  */
-class MySQL implements PluginInterface
+class PHP implements PluginInterface
 {
     /**
      * @param array $config
