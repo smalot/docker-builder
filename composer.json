@@ -1,0 +1,27 @@
+{
+    "name": "smalot/docker-builder",
+    "type": "library",
+    "description": "Docker Image Builder API. Perfect to run isolated GitLab CI unit tests.",
+    "keywords": ["docker", "generator", "builder"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastien MALOT",
+            "role": "Developer",
+            "email": "sebastien@malot.fr"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/smalot/docker-builder/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/yaml": "*",
+        "smalot/dockerfile": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Smalot\\Docker\\Builder\\": "src/"
+        }
+    }
+}
